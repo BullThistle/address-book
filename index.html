@@ -6,75 +6,123 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>Contact form</h1>
     <div class="container">
       <div class="row">
-          <div class="col-md-4">
+        <div class="results">
+
+        <div class="left">
+          <div class="col-lg-9">
             <form id="contact1">
-
+              <label for="name1">Name</label>
               <input type="text" id="name1" class="form-control">
-
+              <label for="address1">Address</label>
               <input type="text" id="address1" class="form-control">
-
+              <label for="phone1">Phone Number</label>
               <input type="text" id="phone1" class="form-control">
-
               <div class="form-group">
                 <label for="born">Date of birth:</label>
                 <input id="dob1" class="form-control" type="date">
               </div>
-
+              <button class="btn" type="submit">Submit Contact</button>
             </form>
-            <button class="btn" type="submit">Submit Contact</button>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-              <form id="name2">
-
-              </form>
-              <form id="address2">
-
-              </form>
-              <form id="dob2">
-
-              </form>
-              <form id="phone2">
-
-              </form>
-
-              <button type="submit"></button>
-
-            </div>
           </div>
         </div>
 
-        <div class="container">
-          <div class="row">
-              <div class="col-md-4">
-                <form id="name3">
-
-                </form>
-                <form id="address3">
-
-                </form>
-                <form id="dob3">
-
-                </form>
-                <form id="phone3">
-
-                </form>
-
-                <button type="submit"></button>
-
+        <div class="left">
+          <div class="col-lg-9">
+            <form id="contact2">
+              <label for="name2">Name</label>
+              <input type="text" id="name2" class="form-control">
+              <label for="address2">Address</label>
+              <input type="text" id="address1" class="form-control">
+              <label for="phone2">Phone Number</label>
+              <input type="text" id="phone2" class="form-control">
+              <div class="form-group">
+                <label for="born">Date of birth:</label>
+                <input id="dob2" class="form-control" type="date">
               </div>
-            </div>
+              <button class="btn" type="submit">Submit Contact</button>
+            </form>
           </div>
+        </div>
+
+        <div class="left">
+          <div class="col-lg-9">
+            <form id="contact3">
+              <label for="name3">Name</label>
+              <input type="text" id="name3" class="form-control">
+              <label for="address1">Address</label>
+              <input type="text" id="address3" class="form-control">
+              <label for="phone1">Phone Number</label>
+              <input type="text" id="phone3" class="form-control">
+              <div class="form-group">
+                <label for="born">Date of birth:</label>
+                <input id="dob3" class="form-control" type="date">
+              </div>
+              <button class="btn" type="submit">Submit Contact</button>
+            </form>
+          </div>
+        </div>
+
+
+
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="clickable">
+        <div class="contactDisplay" id="contact1Display"></div>
+        <ul class="definitions">
+          <li><div class="contactDisplay" id="contact1DisplayAlt"></div></li>
+          <li><div class="contactDisplay" id="address1Display"></div></li>
+          <li><div class="contactDisplay" id="phone1Display"></div></li>
+          <li><div class="contactDisplay" id="dob1Display"></div></li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="clickable">
+        <div class="contactDisplay" id="contact2Display"></div>
+        <ul class="definitions">
+          <li><div class="contactDisplay" id="contact2DisplayAlt"></div></li>
+          <li><div class="contactDisplay" id="address2Display"></div></li>
+          <li><div class="contactDisplay" id="phone2Display"></div></li>
+          <li><div class="contactDisplay" id="dob2Display"></div></li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="clickable">
+        <div class="contactDisplay" id="contact3Display"></div>
+        <ul class="definitions">
+          <li><div class="contactDisplay" id="contact3DisplayAlt"></div></li>
+          <li><div class="contactDisplay" id="address3Display"></div></li>
+          <li><div class="contactDisplay" id="phone3Display"></div></li>
+          <li><div class="contactDisplay" id="dob3Display"></div></li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+
+
+
+
 
   </body>
 </html>
